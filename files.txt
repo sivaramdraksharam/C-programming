@@ -1,0 +1,65 @@
+File Handling in C:
+-------------------
+	We know that the data stored in the variables is not permanent. once you terminate from the program the data u entered in the variables is no longer available. In order to make the data permanent so that the data can be retrieved later, C Language supports Files concept.
+
+File Operations:
+----------------
+
+1. Creating a file.
+2. Opening a file.
+3. Writing data to the file.
+4. Reading data from the file.
+5. Closing the file.
+
+1. Creating a File:
+--------------------
+	To create a file, declare the pointer variable of FILE datatype.
+	
+	FILE *fptr;
+
+2. Opening file:
+-------------------
+	fopen(): This function is used to open the file
+
+	syn: fopen("filename","mode");
+
+	modes:
+		w --> write mode
+		r --> read mode
+		a --> append mode
+		w+ --> write and read
+		a+ --> append and read
+		r+ --> read and write
+
+
+	ex: fptr=fopen("myfile.txt","r");
+
+Note:	The fopen() returns NULL if the specified file is not in the disk.
+-----						
+
+3. Writing data to the file:
+----------------------------
+	fputc() : to write a character to the file
+	fprintf() : to write a formatted string to the file
+	fwrite() : to write a record to the file
+
+4. Reading data from the file:
+------------------------------
+	fgetc() : to read a character from the file.
+	fscanf() : to read a formatted string from the file
+	fread() : to read a record from the file
+
+5. Closing the file:
+--------------------
+	After performing the above operations u must close the file.
+	fclose(): to close the file.
+	
+	ex: fclose(fptr);
+
+	
+Detecting End of the file:
+--------------------------
+	EOF: to detect the end of the text files.
+	feof(): to detect the end of the data files.
+
+	

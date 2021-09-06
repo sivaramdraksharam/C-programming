@@ -1,0 +1,32 @@
+Strings:
+	A String refers set of characters. so far we have done operations on numbers. Now we are going
+to do the same on strings.
+In order to work with strings C language supports the following string handling functions, which are 
+in the header file <string.h>
+
+1. strlen() :  It returns the length of the string.
+------------
+
+2. strrev(): It reverses the given string
+-----------
+
+3. strupr() / strlwr() : Convers lowercase to uppercase and uppercase to lowercase.
+-----------------------
+
+4. strcpy()   : It copies the whole string into another string.
+    strncpy() : It copies the no: of characters of one string into another string.	
+---------------
+
+5. strcat()  : String Concatenation, it combines 2 strings.
+    strncat() : it combines no: of characters of one string into another string.
+--------------
+
+6. strcmp()   : It compares 2 strings and returns 0 if equal
+				           >0 if str1> str2 
+				          <0 if str1 < str2	
+    strncmp() : It compares no: of characters of one string to another string.
+    stricmp()  : It ignores the case
+--------------
+
+
+		

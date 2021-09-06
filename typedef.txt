@@ -1,0 +1,12 @@
+typedef:
+--------
+	using typedef you can provide user defined names to the predefined data types.
+
+int sno;
+char sname[12];
+
+typedef int subjects;
+
+subjects mat,phy,che;
+
+

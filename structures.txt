@@ -1,0 +1,66 @@
+Basic DataTypes:
+	int, char, float, etc.
+Derived DataTypes:
+	Arrays,Functions,Pointers, etc.
+UserDefined DataTypes:	
+	Enumerators,Structures and Unions.
+
+
+sno	sname 	course	fees
+101	Kiran	Java	5000
+
+
+Structure is a Collection of Different elements of Different Datatypes.
+
+Declaration
+--------------
+
+struct <tagname>
+{
+	data element1;
+	data element2;
+	data element3;
+};
+
+Ex:
+---
+
+struct book
+{
+	int bookid;
+	char title[12];
+	char author[12];
+	float price;
+};
+
+
+Defining Structure variables:
+-------------------------------
+
+struct book
+{
+	int bookid;
+	char title[12];
+	char author[12];
+	float price;
+}b1,b2,b3;
+
+(or)
+
+struct book
+{
+	int bookid;
+	char title[12];
+	char author[12];
+	float price;
+};
+
+main()
+{
+
+struct book b1,b2;
+---
+----
+}
+
+

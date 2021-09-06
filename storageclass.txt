@@ -1,0 +1,37 @@
+auto -- Automatic
+static -- Static
+extern -- External
+
+auto int x;
+
+1. Location -- Memory
+ 
+2. Default Value -- Garbage
+
+3. Scope -- available with in the scope.
+
+4. Life --  remains only with in the scope.
+
+
+static int x;
+
+1. Location -- Memory
+ 
+2. Default Value -- Zero
+
+3. Scope -- value retains even different function calls
+
+4. Life -- in the entire program.
+
+
+extern int x;
+
+1. Location -- Memory
+ 
+2. Default Value -- Zero
+
+3. Scope -- available in the entire program.
+
+4. Life -- in the entire program and other programs also.
+
+

@@ -1,0 +1,61 @@
+Pointers
+-----------
+	A Pointer is a variable, which points to another variable. Using pointers, we can hold the address of variables.
+	We use the following 2 operators to work with pointers
+& --> ampersand-- to get the address
+* --> asterisk --- to get the value of that address
+
+	We use Pointers for 2 reasons:
+1. To catch the address of the variables to improve the speed of the accessing of the program.
+2. To hold unlimited values so that we can overcome the drawbacks of an array.
+
+	Pointer Variables are dymanic in nature.
+
+Declaration of Pointer Variables:
+----------------------------------------
+int *p;
+char *q;
+float *n;
+
+Initialiazation of Pointer Variables:
+-------------------------------------------
+int x=5;
+int *p=&x;
+
+or
+
+int *p;
+--
+---
+p=&x;
+
+
+Pointer Arithmetic:
+-----------------------
+
+1. Increment/Decrement with Pointers: 
+
+int *p;	p++ (p=p+1)-->the value of p incremented by 2
+float *q 	q++ -->the value of q incremented by 4
+
+2. Addition and Subtraction with Pointers:
+	-We cant add one pointer variable to another pointer variable. its a compilation error.
+	int *p,*q;
+		p+q; -- error
+		p=42	
+		p+2; --> 46 
+
+	-But we can subtract one pointer variable to another pointer variable only when both pointers point to the same array.
+
+Pointer using Functions:
+------------------------------
+
+There are 2 ways to call functions
+1. Call by Value
+2. Call by Reference
+
+
+	
+
+
+

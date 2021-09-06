@@ -1,0 +1,25 @@
+There are 2 ways to allocate memory
+1. Static Memory Allocation
+2. Dynamic Memory Allocation
+
+Static Memory Allocation(SMA):
+	Allocating memory at the time of declaration of variable is known as Static Memory Allocation.
+for ex: Arrays.
+
+Dynamic Memory Allocation(DMA):
+	Allocating memory at the time of execution of the program is known as Dynamic Memory Allocation.
+for ex: Pointers.
+
+
+C supports the following DMA functions.
+
+1. malloc():
+	It allocates the required memory and set the control pointer at the begining address.
+2. calloc():
+	It is similar to malloc(), but it fills the default value 0.
+3. realloc():
+	It re-allocates the memory to the variable.
+4. free():
+	It releases the allocated memory.
+
+	The above 3 functions returns NULL, if the requested memory is not available in the disk.
